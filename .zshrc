@@ -49,7 +49,7 @@ plugins=(git git-extras python osx django)
 
 # User configuration
 
-export PATH="/Users/eunicekokor/anaconda/bin:/Users/eunicekokor/.rvm/gems/ruby-2.1.2/bin:/Users/eunicekokor/.rvm/gems/ruby-2.1.2@global/bin:/Users/eunicekokor/.rvm/rubies/ruby-2.1.2/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Users/eunicekokor/.rvm/bin"
+export PATH="/Users/eunicekokor/anaconda/bin:/Users/eunicekokor/.rvm/gems/ruby-2.1.2/bin:/Users/eunicekokor/.rvm/gems/ruby-2.1.2@global/bin:/Users/eunicekokor/.rvm/rubies/ruby-2.1.2/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Users/eunicekokor/.rvm/bin/usr/local/opt/apr-util/bin:/usr/local/opt/apr/bin:/Users/eunicekokor/anaconda/bin:/Users/eunicekokor/.rvm/gems/ruby-2.1.2/bin:/Users/eunicekokor/.rvm/gems/ruby-2.1.2@global/bin:/Users/eunicekokor/.rvm/rubies/ruby-2.1.2/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Users/eunicekokor/.rvm/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -81,3 +81,8 @@ source $ZSH/oh-my-zsh.sh
 
 export NVM_DIR="/Users/eunicekokor/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+alias dc="docker-compose"
+export GITHUB_TOKEN=c0e4b81acacd10cb61da62a26b034ab71640b16d
+export PATH="/usr/local/opt/apr/bin:$PATH"
+export PATH="/usr/local/opt/apr-util/bin:$PATH"
